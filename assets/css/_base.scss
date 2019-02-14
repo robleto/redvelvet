@@ -1,0 +1,31 @@
+// Font weights
+$light: 300;
+$regular: 400;
+$bold: 700;
+
+// Font Styles
+$slab-serif: "Habibi","Helvetica Neue","Helvetica","Arial",sans-serif;
+$serif: "Georgia","Times New Roman",serif;
+$sans-serif: "Lato", "Open Sans","Helvetica Neue","Helvetica","Arial",sans-serif;
+
+// Base Font
+$base-font-family: $sans-serif;
+$base-font-weight: $regular;
+$base-font-size: emCalc(16px);
+$base-line-height: emCalc(28px);
+
+// Fixed Font
+$fixed-font-family: monospace;
+$fixed-font-size: 85%;
+$fixed-line-height: $base-line-height;
+
+// Headings
+$header-font-weight: $bold;
+
+
+// Color
+
+
+// Layout
+$max-width: 980px;
+$border-radius: 5px;
