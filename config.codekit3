@@ -23,13 +23,6 @@
 		"oAP": "/build/.gitignore",
 		"oF": 0
 		},
-	"/.hammer-ignore": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/build/.hammer-ignore",
-		"oF": 0
-		},
 	"/build": {
 		"ft": 65536,
 		"oA": 1,
@@ -98,6 +91,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/source/assets/img/icon-cupcake.png": {
+		"ft": 32768,
+		"iS": 1559,
+		"oA": 0,
+		"oAP": "/build/assets/img/icon-cupcake.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/source/assets/img/lamda.png": {
 		"ft": 32768,
 		"iS": 3501,
@@ -108,6 +112,25 @@
 		"opt": 1,
 		"oT": 1,
 		"q": 100
+		},
+	"/source/assets/img/logo-on-red.png": {
+		"ft": 32768,
+		"iS": 290669,
+		"oA": 0,
+		"oAP": "/build/assets/img/logo-on-red.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/source/assets/img/logo.gif": {
+		"ft": 4194304,
+		"iS": 22623,
+		"oA": 0,
+		"oAP": "/build/assets/img/logo.gif",
+		"oF": 1,
+		"opt": 0
 		},
 	"/source/assets/img/p01-800x600.jpg": {
 		"ft": 16384,
@@ -274,6 +297,39 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/source/assets/img/profilepic-annie.jpg": {
+		"ft": 16384,
+		"iS": 9463,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/profilepic-annie.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/assets/img/profilepic-selena.jpg": {
+		"ft": 16384,
+		"iS": 11675,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/profilepic-selena.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/source/assets/img/red-bg.jpg": {
+		"ft": 16384,
+		"iS": 145463,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/red-bg.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/source/assets/img/responsive-300-white.png": {
 		"ft": 32768,
 		"iS": 3367,
@@ -382,6 +438,17 @@
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"/source/assets/img/twitter.png": {
+		"ft": 32768,
+		"iS": 2280,
+		"oA": 0,
+		"oAP": "/build/assets/img/twitter.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/source/assets/img/web-512-white.png": {
@@ -512,7 +579,7 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/build/assets/scss/bootstrap.min.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3
 		},
 	"/source/assets/scss/css": {
@@ -529,7 +596,7 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/build/assets/scss/js_composer.min.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3
 		},
 	"/source/assets/scss/mediaelementplayer.min.css": {
@@ -539,7 +606,7 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/build/assets/scss/mediaelementplayer.min.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3
 		},
 	"/source/assets/scss/stack-200.css": {
@@ -549,7 +616,7 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/build/assets/scss/stack-200.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3
 		},
 	"/source/assets/scss/theme.min.css": {
@@ -559,7 +626,7 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/build/assets/scss/theme.min.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3
 		},
 	"/source/assets/scss/vc-frontend.css": {
@@ -569,7 +636,7 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/build/assets/scss/vc-frontend.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3
 		},
 	"/source/assets/scss/wp-mediaelement.min.css": {
@@ -579,15 +646,22 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/build/assets/scss/wp-mediaelement.min.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3
 		},
 	"/source/index.html": {
-		"cB": 0,
+		"cB": 1,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/build/index.html",
 		"oF": 3
+		},
+	"/source/index_bak.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/index_bak.html",
+		"oF": 0
 		}
 	},
 "hooks": [
