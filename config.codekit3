@@ -4,11 +4,18 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "BEF51A8E-E14B-4D87-9D50-36B5A23F2226"
+		"uuidString": "94D02FD4-D12A-4A72-815B-F5689A1B6503"
 		}
 	],
 "creatorBuild": "28905",
 "files": {
+	"/.gitattributes": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/build/.gitattributes",
+		"oF": 0
+		},
 	"/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
@@ -16,369 +23,644 @@
 		"oAP": "/build/.gitignore",
 		"oF": 0
 		},
-	"/.hammer-ignore": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/build/.hammer-ignore",
+	"/build": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "/build/build",
 		"oF": 0
 		},
-	"/assets/apple-touch-icon.png": {
-		"ft": 32768,
-		"iS": 4522,
+	"/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 0,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
 		"oA": 0,
-		"oAP": "/build/assets/apple-touch-icon.png",
+		"oAP": "/build/README.html",
 		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"/source/assets/img/admin-300-white.png": {
+		"ft": 32768,
+		"iS": 4093,
+		"oA": 0,
+		"oAP": "/build/assets/img/admin-300-white.png",
+		"oF": 1,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/css/.sass-cache/48818a32fe54c16855e615fccfe6a33df1d4b359/_base.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/build/assets/css/.sass-cache/48818a32fe54c16855e615fccfe6a33df1d4b359/_base.scssc",
-		"oF": 0
-		},
-	"/assets/css/.sass-cache/48818a32fe54c16855e615fccfe6a33df1d4b359/_queries.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/build/assets/css/.sass-cache/48818a32fe54c16855e615fccfe6a33df1d4b359/_queries.scssc",
-		"oF": 0
-		},
-	"/assets/css/.sass-cache/48818a32fe54c16855e615fccfe6a33df1d4b359/style.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/build/assets/css/.sass-cache/48818a32fe54c16855e615fccfe6a33df1d4b359/style.scssc",
-		"oF": 0
-		},
-	"/assets/css/.sass-cache/f90a2bd34533bc3744d85993ed2b2efed6762c85/_base.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/build/assets/css/.sass-cache/f90a2bd34533bc3744d85993ed2b2efed6762c85/_base.scssc",
-		"oF": 0
-		},
-	"/assets/css/.sass-cache/f90a2bd34533bc3744d85993ed2b2efed6762c85/_queries.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/build/assets/css/.sass-cache/f90a2bd34533bc3744d85993ed2b2efed6762c85/_queries.scssc",
-		"oF": 0
-		},
-	"/assets/css/.sass-cache/f90a2bd34533bc3744d85993ed2b2efed6762c85/style.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/build/assets/css/.sass-cache/f90a2bd34533bc3744d85993ed2b2efed6762c85/style.scssc",
-		"oF": 0
-		},
-	"/assets/css/_base.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 5,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/build/assets/css/_base.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/assets/css/_queries.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 5,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/build/assets/css/_queries.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/assets/css/_type.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 5,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/build/assets/css/_type.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/assets/css/normalize.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
+	"/source/assets/img/admin-512-white.png": {
+		"ft": 32768,
+		"iS": 7217,
 		"oA": 0,
-		"oAP": "/build/assets/css/normalize-min.css",
-		"oF": 0,
-		"oS": 0
+		"oAP": "/build/assets/img/admin-512-white.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
-	"/assets/css/style.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/build/assets/css/style-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"/assets/css/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 5,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
+	"/source/assets/img/coctail-800x600.jpg": {
+		"ft": 16384,
+		"iS": 99841,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "/build/assets/css/style.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
+		"oAP": "/build/assets/img/coctail-800x600.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
-	"/assets/favicon.ico": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/build/assets/favicon.ico",
-		"oF": 0
+	"/source/assets/img/devices-3.jpg": {
+		"ft": 16384,
+		"iS": 121545,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/devices-3.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
-	"/assets/img/icon-cupcake.png": {
+	"/source/assets/img/icon-cupcake.png": {
 		"ft": 32768,
 		"iS": 1559,
 		"oA": 0,
 		"oAP": "/build/assets/img/icon-cupcake.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/img/logo-on-red.png": {
+	"/source/assets/img/lamda.png": {
+		"ft": 32768,
+		"iS": 3501,
+		"oA": 0,
+		"oAP": "/build/assets/img/lamda.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/source/assets/img/logo-on-red.png": {
 		"ft": 32768,
 		"iS": 290669,
 		"oA": 0,
 		"oAP": "/build/assets/img/logo-on-red.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/img/logo.gif": {
+	"/source/assets/img/logo.gif": {
 		"ft": 4194304,
 		"iS": 22623,
 		"oA": 0,
 		"oAP": "/build/assets/img/logo.gif",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0
 		},
-	"/assets/img/portfolio/astc13-1.png": {
-		"ft": 32768,
-		"iS": 366089,
+	"/source/assets/img/p01-800x600.jpg": {
+		"ft": 16384,
+		"iS": 76850,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "/build/assets/img/portfolio/astc13-1.png",
-		"oF": 0,
+		"oAP": "/build/assets/img/p01-800x600.jpg",
+		"oF": 1,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/assets/img/p011-150x150.jpg": {
+		"ft": 16384,
+		"iS": 9386,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/p011-150x150.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/assets/img/p02-800x600.jpg": {
+		"ft": 16384,
+		"iS": 102843,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/p02-800x600.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/assets/img/p03-800x600.jpg": {
+		"ft": 16384,
+		"iS": 99640,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/p03-800x600.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/assets/img/p04-800x600.jpg": {
+		"ft": 16384,
+		"iS": 73940,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/p04-800x600.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/assets/img/p041-150x150.jpg": {
+		"ft": 16384,
+		"iS": 7844,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/p041-150x150.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/assets/img/p05-800x600.jpg": {
+		"ft": 16384,
+		"iS": 53769,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/p05-800x600.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/assets/img/p06-800x600.jpg": {
+		"ft": 16384,
+		"iS": 82228,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/p06-800x600.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/assets/img/p07-800x600.jpg": {
+		"ft": 16384,
+		"iS": 81338,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/p07-800x600.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/assets/img/p08-800x600.jpg": {
+		"ft": 16384,
+		"iS": 47085,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/p08-800x600.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/assets/img/p10-800x600.jpg": {
+		"ft": 16384,
+		"iS": 118379,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/p10-800x600.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/assets/img/p11-800x600.jpg": {
+		"ft": 16384,
+		"iS": 97270,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/p11-800x600.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/assets/img/p111-150x150.jpg": {
+		"ft": 16384,
+		"iS": 11039,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/p111-150x150.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/assets/img/p12-800x600.jpg": {
+		"ft": 16384,
+		"iS": 162426,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/p12-800x600.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/assets/img/play1.png": {
+		"ft": 32768,
+		"iS": 3425,
+		"oA": 0,
+		"oAP": "/build/assets/img/play1.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/img/portfolio/astc13-sq.png": {
-		"ft": 32768,
-		"iS": 182535,
-		"oA": 0,
-		"oAP": "/build/assets/img/portfolio/astc13-sq.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/portfolio/astc14-1.png": {
-		"ft": 32768,
-		"iS": 224271,
-		"oA": 0,
-		"oAP": "/build/assets/img/portfolio/astc14-1.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/portfolio/astc14-sq.png": {
-		"ft": 32768,
-		"iS": 159903,
-		"oA": 0,
-		"oAP": "/build/assets/img/portfolio/astc14-sq.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/portfolio/folger-gala-1.png": {
-		"ft": 32768,
-		"iS": 178231,
-		"oA": 0,
-		"oAP": "/build/assets/img/portfolio/folger-gala-1.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/portfolio/folger-gala-2.png": {
-		"ft": 32768,
-		"iS": 138367,
-		"oA": 0,
-		"oAP": "/build/assets/img/portfolio/folger-gala-2.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/portfolio/folger-gala-sq.png": {
-		"ft": 32768,
-		"iS": 128684,
-		"oA": 0,
-		"oAP": "/build/assets/img/portfolio/folger-gala-sq.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/profilepic-annie.jpg": {
+	"/source/assets/img/profilepic-annie.jpg": {
 		"ft": 16384,
 		"iS": 9463,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/build/assets/img/profilepic-annie.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/assets/img/profilepic-selena.jpg": {
+	"/source/assets/img/profilepic-selena.jpg": {
 		"ft": 16384,
 		"iS": 11675,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/build/assets/img/profilepic-selena.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/assets/img/red-bg.jpg": {
+	"/source/assets/img/red-bg.jpg": {
 		"ft": 16384,
 		"iS": 145463,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/build/assets/img/red-bg.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/assets/img/twitter.png": {
+	"/source/assets/img/responsive-300-white.png": {
+		"ft": 32768,
+		"iS": 3367,
+		"oA": 0,
+		"oAP": "/build/assets/img/responsive-300-white.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/source/assets/img/retina-512-white.png": {
+		"ft": 32768,
+		"iS": 6962,
+		"oA": 0,
+		"oAP": "/build/assets/img/retina-512-white.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/source/assets/img/team01-notinclude.jpg": {
+		"ft": 16384,
+		"iS": 36872,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/team01-notinclude.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/assets/img/team02-notinclude.jpg": {
+		"ft": 16384,
+		"iS": 46401,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/team02-notinclude.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/assets/img/team03-notinclude.jpg": {
+		"ft": 16384,
+		"iS": 40074,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/team03-notinclude.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/assets/img/team04-notinclude.jpg": {
+		"ft": 16384,
+		"iS": 40839,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/team04-notinclude.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/assets/img/team05-notinclude.jpg": {
+		"ft": 16384,
+		"iS": 37523,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/team05-notinclude.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/assets/img/team06-notinclude.jpg": {
+		"ft": 16384,
+		"iS": 41291,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/team06-notinclude.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/assets/img/team07-notinclude.jpg": {
+		"ft": 16384,
+		"iS": 36017,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/team07-notinclude.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/assets/img/team08-notinclude.jpg": {
+		"ft": 16384,
+		"iS": 45404,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/img/team08-notinclude.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/source/assets/img/twitter.png": {
 		"ft": 32768,
 		"iS": 2280,
 		"oA": 0,
 		"oAP": "/build/assets/img/twitter.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/js/app.js": {
+	"/source/assets/img/web-512-white.png": {
+		"ft": 32768,
+		"iS": 7157,
+		"oA": 0,
+		"oAP": "/build/assets/img/web-512-white.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/source/assets/js/Chart.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/build/assets/js/min/app-min.js",
-		"oF": 0,
-		"sC": 1,
+		"oAP": "/build/assets/js/Chart.min-min.js",
+		"oF": 1,
+		"sC": 3,
 		"tS": 0
 		},
-	"/assets/js/jquery-1.8.3.min.js": {
+	"/source/assets/js/comment-reply.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/build/assets/js/min/jquery-1.8.3.min-min.js",
-		"oF": 0,
-		"sC": 1,
+		"oAP": "/build/assets/js/comment-reply.min-min.js",
+		"oF": 1,
+		"sC": 3,
 		"tS": 0
 		},
-	"/Build": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "/build/Build",
-		"oF": 0
+	"/source/assets/js/functions.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/assets/js/functions-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
 		},
-	"/includes/_footer.html": {
+	"/source/assets/js/jquery-migrate.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/assets/js/jquery-migrate.min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/source/assets/js/jquery.form.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/assets/js/jquery.form.min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/source/assets/js/jquery.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/assets/js/jquery-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/source/assets/js/mediaelement-and-player.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/assets/js/mediaelement-and-player.min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/source/assets/js/scripts.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/assets/js/scripts-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/source/assets/js/theme.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/assets/js/theme.min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/source/assets/js/wp-embed.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/assets/js/wp-embed.min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/source/assets/js/wp-mediaelement.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/assets/js/wp-mediaelement.min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/source/assets/scss/bootstrap.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/build/assets/scss/bootstrap.min.css",
+		"oF": 1,
+		"oS": 3
+		},
+	"/source/assets/scss/css": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/build/includes/_footer.html",
-		"oF": 0
+		"oAP": "/build/assets/scss/css",
+		"oF": 1
 		},
-	"/includes/_header.html": {
-		"cB": 0,
-		"ft": 8192,
+	"/source/assets/scss/js_composer.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
 		"oA": 0,
-		"oAP": "/build/includes/_header.html",
-		"oF": 0
+		"oAP": "/build/assets/scss/js_composer.min.css",
+		"oF": 1,
+		"oS": 3
 		},
-	"/includes/_nav.html": {
-		"cB": 0,
-		"ft": 8192,
+	"/source/assets/scss/mediaelementplayer.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
 		"oA": 0,
-		"oAP": "/build/includes/_nav.html",
-		"oF": 0
+		"oAP": "/build/assets/scss/mediaelementplayer.min.css",
+		"oF": 1,
+		"oS": 3
 		},
-	"/index.html": {
-		"cB": 0,
+	"/source/assets/scss/stack-200.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/build/assets/scss/stack-200.css",
+		"oF": 1,
+		"oS": 3
+		},
+	"/source/assets/scss/theme.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/build/assets/scss/theme.min.css",
+		"oF": 1,
+		"oS": 3
+		},
+	"/source/assets/scss/vc-frontend.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/build/assets/scss/vc-frontend.css",
+		"oF": 1,
+		"oS": 3
+		},
+	"/source/assets/scss/wp-mediaelement.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/build/assets/scss/wp-mediaelement.min.css",
+		"oF": 1,
+		"oS": 3
+		},
+	"/source/index.html": {
+		"cB": 1,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/build/index.html",
-		"oF": 1
+		"oF": 3
 		},
-	"/portfolio/astc13.html": {
+	"/source/index_bak.html": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
-		"oAP": "/build/portfolio/astc13.html",
-		"oF": 0
-		},
-	"/portfolio/astc14.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/build/portfolio/astc14.html",
-		"oF": 0
-		},
-	"/portfolio/folger-gala.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/build/portfolio/folger-gala.html",
+		"oA": 0,
+		"oAP": "/build/index_bak.html",
 		"oF": 0
 		}
 	},
@@ -387,11 +669,12 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 507275683,
-	"displayValue": "Red Velvet Creative",
+	"creationDate": 541660404,
+	"displayValue": "rvc2017",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "/assets/apple-touch-icon.png",
-	"iconImageWasSetByUser": 0
+	"iconImageName": "meme-ariel",
+	"iconImageWasSetByUser": 0,
+	"lastBuiltDate": 571813188.005288
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -632,7 +915,7 @@
 	"bowerSaveDevDependencies": 0,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
-	"browserslistString": "> 1%, last 2 versions, ff 17, opera 12.1",
+	"browserslistString": ">0.2%, last 2 versions, Firefox ESR, not dead",
 	"buildFolderActive": 1,
 	"buildFolderName": "build",
 	"cleanBuild": 1,
@@ -792,7 +1075,7 @@
 			},
 		"array-callback-return": {
 			"active": 0,
-			"optionString": ""
+			"optionString": "{'allowImplicit': false}"
 			},
 		"array-element-newline": {
 			"active": 0,
@@ -956,7 +1239,7 @@
 			},
 		"indent": {
 			"active": 0,
-			"optionString": "4, {'SwitchCase': 0, 'VariableDeclarator': 1, 'outerIIFEBody': 1, }"
+			"optionString": "4, {'SwitchCase': 0, 'VariableDeclarator': 1, 'outerIIFEBody': 1 }"
 			},
 		"init-declarations": {
 			"active": 0,
@@ -1191,8 +1474,8 @@
 			"optionString": ""
 			},
 		"no-extra-parens": {
-			"active": 1,
-			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false}"
+			"active": 0,
+			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none', 'enforceForArrowConditionals': false}"
 			},
 		"no-extra-semi": {
 			"active": 1,
@@ -1211,7 +1494,7 @@
 			"optionString": ""
 			},
 		"no-global-assign": {
-			"active": 0,
+			"active": 1,
 			"optionString": "{'exceptions': []}"
 			},
 		"no-implicit-coercion": {
@@ -1423,7 +1706,7 @@
 			"optionString": "{'props': false}"
 			},
 		"no-self-compare": {
-			"active": 1,
+			"active": 0,
 			"optionString": ""
 			},
 		"no-sequences": {
@@ -1444,14 +1727,14 @@
 			},
 		"no-sync": {
 			"active": 0,
-			"optionString": ""
+			"optionString": "{'allowAtRootLevel': false}"
 			},
 		"no-tabs": {
 			"active": 0,
 			"optionString": ""
 			},
 		"no-template-curly-in-string": {
-			"active": 1,
+			"active": 0,
 			"optionString": ""
 			},
 		"no-ternary": {
@@ -1468,7 +1751,7 @@
 			},
 		"no-trailing-spaces": {
 			"active": 0,
-			"optionString": "{'skipBlankLines': false}"
+			"optionString": "{'skipBlankLines': false, 'ignoreComments': false}"
 			},
 		"no-undef": {
 			"active": 1,
@@ -1484,7 +1767,7 @@
 			},
 		"no-underscore-dangle": {
 			"active": 0,
-			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false}"
+			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false, 'enforceInMethodNames': false}"
 			},
 		"no-unexpected-multiline": {
 			"active": 1,
@@ -1507,12 +1790,12 @@
 			"optionString": ""
 			},
 		"no-unsafe-negation": {
-			"active": 0,
+			"active": 1,
 			"optionString": ""
 			},
 		"no-unused-expressions": {
 			"active": 0,
-			"optionString": "{'allowShortCircuit': false, 'allowTernary': false}"
+			"optionString": "{'allowShortCircuit': false, 'allowTernary': false, 'allowTaggedTemplates': false}"
 			},
 		"no-unused-labels": {
 			"active": 1,
@@ -1520,18 +1803,18 @@
 			},
 		"no-unused-vars": {
 			"active": 1,
-			"optionString": "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none'}"
+			"optionString": "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none', 'ignoreRestSiblings': false}"
 			},
 		"no-use-before-define": {
 			"active": 0,
-			"optionString": "{'functions': true, 'classes': true}"
+			"optionString": "{'functions': true, 'classes': true, 'variables': true}"
 			},
 		"no-useless-call": {
 			"active": 0,
 			"optionString": ""
 			},
 		"no-useless-computed-key": {
-			"active": 1,
+			"active": 0,
 			"optionString": ""
 			},
 		"no-useless-concat": {
@@ -1683,7 +1966,7 @@
 			"optionString": ""
 			},
 		"require-yield": {
-			"active": 0,
+			"active": 1,
 			"optionString": ""
 			},
 		"rest-spread-spacing": {
@@ -2163,7 +2446,7 @@
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*-min.css",
+		"autoOutputPathFilenamePattern": "*.css",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
@@ -2212,10 +2495,10 @@
 		"autoOutputPathRelativePath": "/min",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 2,
+		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
 		"minifyOutput": 1,
-		"syntaxCheckerStyle": 1,
+		"syntaxCheckerStyle": 3,
 		"transpilerStyle": 0
 		},
 	"languageDefaultsJSON": {
@@ -2232,8 +2515,8 @@
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.html",
 		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "",
-		"autoOutputPathReplace2": "",
+		"autoOutputPathReplace1": "kit",
+		"autoOutputPathReplace2": "html",
 		"autoOutputPathStyle": 0,
 		"shouldRunCacheBuster": 0
 		},
@@ -2244,8 +2527,8 @@
 		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "less",
 		"autoOutputPathReplace2": "css",
-		"autoOutputPathStyle": 2,
-		"createSourceMap": 0,
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 1,
 		"enableJavascript": 0,
 		"ieCompatibility": 1,
 		"mathStyle": 0,
@@ -2264,7 +2547,7 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"criticStyle": 0,
-		"enableFootnotes": 0,
+		"enableFootnotes": 1,
 		"enableLabels": 1,
 		"enableSmartQuotes": 1,
 		"maskEmailAddresses": 1,
@@ -2277,7 +2560,7 @@
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
-		"autoOutputAction": 2,
+		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.*",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
@@ -2312,10 +2595,10 @@
 		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
-		"autoOutputPathStyle": 2,
+		"autoOutputPathStyle": 3,
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 10,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
@@ -2341,7 +2624,7 @@
 		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "stylus",
 		"autoOutputPathReplace2": "css",
-		"autoOutputPathStyle": 2,
+		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"importCSS": 0,
@@ -2365,12 +2648,12 @@
 		"autoOutputPathRelativePath": "/js",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 2,
+		"autoOutputPathStyle": 0,
 		"createDeclarationFile": 0,
 		"createSourceMap": 0,
 		"minifyOutput": 0,
 		"moduleResolutionType": 0,
-		"moduleType": 0,
+		"moduleType": 2,
 		"removeComments": 0,
 		"targetECMAVersion": 0
 		},
@@ -2378,7 +2661,7 @@
 		],
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, /storage/framework/sessions, node_modules",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, /storage/framework/sessions, node_modules",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
 	"tsAllowSyntheticDefaultImports": 0,

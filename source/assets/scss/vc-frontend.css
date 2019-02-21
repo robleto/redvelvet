@@ -1,0 +1,11 @@
+.vc_vc_column.vc_container-block  [class^='col-md-'] {
+    width:100% !important;
+}
+
+.vc_vc_column.vc_container-block  .col-md-2-4 {
+    width: 20% !important;;
+}
+
+.vc_vc_column .os-animation {
+    opacity: 1 !important;
+}
